@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/akhitha/Advanced_Algo/Assignment1/code/BST.h
+stdexcept
+-
+cstdlib
+-
+iostream
+-
+
+/home/akhitha/Advanced_Algo/Assignment1/code/RBTree.h
+stdexcept
+-
+iostream
+-
+
+/home/akhitha/Advanced_Algo/Assignment1/code/SplayTree.h
+stdexcept
+-
+iostream
+-
+
+/home/akhitha/Advanced_Algo/Assignment1/code/main.cpp
+BST.h
+/home/akhitha/Advanced_Algo/Assignment1/code/BST.h
+RBTree.h
+/home/akhitha/Advanced_Algo/Assignment1/code/RBTree.h
+SplayTree.h
+/home/akhitha/Advanced_Algo/Assignment1/code/SplayTree.h
+iostream
+-
+iomanip
+-
+fstream
+-
+chrono
+-
+
